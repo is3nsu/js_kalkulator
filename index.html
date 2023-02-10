@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>xd.kalkulator</title>
+  </head>
+  <body>
+    <main class="background">
+      <div class="container">
+        <div class="calc-display">
+          <div class="calc-display-previous"></div>
+          <div class="calc-display-operator"></div>
+          <div class="calc-display-actual"></div>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">+</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">-</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">*</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">/</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">AC</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">%</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">(</button>
+        </div>
+        <div class="calc-operators">
+          <button class="btn operators">)</button>
+        </div>
+        <div class="calc-result">
+          <button class="btn operators result">=</button>
+        </div>
+        <div class="calc-numbers"><button class="btn numbers">7</button></div>
+        <div class="calc-numbers"><button class="btn numbers">8</button></div>
+        <div class="calc-numbers"><button class="btn numbers">9</button></div>
+        <div class="calc-numbers"><button class="btn numbers">4</button></div>
+        <div class="calc-numbers"><button class="btn numbers">5</button></div>
+        <div class="calc-numbers"><button class="btn numbers">6</button></div>
+        <div class="calc-numbers"><button class="btn numbers">1</button></div>
+        <div class="calc-numbers"><button class="btn numbers">2</button></div>
+        <div class="calc-numbers"><button class="btn numbers">3</button></div>
+        <div class="calc-numbers calc-zero">
+          <button class="btn numbers">0</button>
+        </div>
+        <div class="calc-numbers"><button class="btn numbers">.</button></div>
+      </div>
+      <div class="container-past">
+        <div class="past-equations">
+          <h2 class="heading">Past equations:</h2>
+          <ul class="list"></ul>
+        </div>
+        <button class="clear-btn btn">Clear</button>
+      </div>
+    </main>
+  </body>
+  <script src="/app.js"></script>
+</html>
