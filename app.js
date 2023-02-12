@@ -59,8 +59,12 @@ function result() {
 
   displayOperator.textContent = "";
   displayPrevious.textContent = "";
+  saveEq();
 }
 
 function clear() {
-  past.remove();
+  const pastAll = document.querySelectorAll(".pasteq");
+  pastAll.forEach((e) => {
+    e.remove();
+  });
 }
